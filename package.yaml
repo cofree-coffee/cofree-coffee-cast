@@ -21,9 +21,13 @@ description:         Please see the README on GitHub at <https://github.com/isov
 
 dependencies:
 - base >= 4.7 && < 5
-- sitepipe
+- slick
 - aeson
 - pandoc
+- shake
+- text
+- lens-aeson
+- lens
 
 executables:
   cofree-coffee-cast:
@@ -33,14 +37,3 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-
-tests:
-  cofree-coffee-cast-test:
-    main:                Spec.hs
-    source-dirs:         test
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - cofree-coffee-cast
