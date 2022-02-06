@@ -1,0 +1,10 @@
+resolver: lts-18.16
+
+packages:
+- .
+
+extra-deps:
+- sitepipe-0.4.0.1
+- MissingH-1.4.3.0
+
+
