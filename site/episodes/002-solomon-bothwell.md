@@ -13,5 +13,3 @@ topics:
 - Curry-Howard
 ---
 
-testing the deploy
-
